@@ -1,0 +1,16 @@
+[project]
+name = "simple-backtest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.9.2",
+    "pandas>=2.2.3",
+]
+
+[tool.setuptools]
+py-modules = []
+
+[project.scripts]
+simple-backtest = "main:main"
